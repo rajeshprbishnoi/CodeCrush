@@ -12,6 +12,7 @@ const morgan = require("morgan");
 const routes = require("./routes");
 
 const { db } = require("./db/model.js");
+const authRoute = require("./routes/auth/index");
 
 const app = express();
 
